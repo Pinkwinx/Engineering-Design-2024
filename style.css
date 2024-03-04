@@ -1,0 +1,76 @@
+html{
+    background-color: darkblue;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color and font for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style for the header */
+header {
+    background-color: darkblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the title */
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Style for the Bluetooth button */
+.bluetooth {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bluetooth:hover {
+    background-color: #45a049;
+}
+
+/* Style for the pH level */
+.ph {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+/* Style for the battery */
+.battery {
+    font-size: 1.2rem;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle p {
+    font-size: 1.2rem;
+}
